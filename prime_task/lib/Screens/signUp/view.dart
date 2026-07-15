@@ -1,0 +1,68 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'logic.dart';
+
+class SignUPPage extends StatelessWidget {
+  const SignUPPage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final SignUPLogic logic = Get.put(SignUPLogic());
+
+    return Scaffold(
+      backgroundColor: const Color(0xFFFFF5F5), // Background color
+      appBar: AppBar(backgroundColor: Colors.transparent, elevation: 0, leading: const Icon(Icons.arrow_back, color: Colors.black)),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 30.0),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text("Register", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black)),
+              const Text("Fill the form below for registering into the system", style: TextStyle(color: Colors.grey, fontSize: 16)),
+              const SizedBox(height: 40),
+
+              // Name Field
+              _buildTextField(logic.nameController, "Name", Icons.person_outline),
+              const SizedBox(height: 20),
+
+              // Email Field
+              _buildTextField(logic.emailController, "Email", Icons.email_outlined),
+              const SizedBox(height: 20),
+
+              // Password Field
+              _buildTextField(logic.passwordController, "Password", Icons.lock_outline, obscure: true),
+
+              const SizedBox(height: 50),
+
+              // Register Button
+              SizedBox(
+                width: double.infinity,
+                height: 60,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFFFF6B6B), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
+                  onPressed: () => logic.registerUser(),
+                  child: const Text("Register", style: TextStyle(fontSize: 18, color: Colors.white)),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildTextField(TextEditingController controller, String hint, IconData icon, {bool obscure = false}) {
+    return TextField(
+      controller: controller,
+      obscureText: obscure,
+      decoration: InputDecoration(
+        prefixIcon: Icon(icon, color: Colors.grey),
+        labelText: hint,
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(15), borderSide: BorderSide.none),
+        filled: true,
+        fillColor: Colors.white,
+      ),
+    );
+  }
+}
