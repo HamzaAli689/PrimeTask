@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import '../dashboard/view.dart';
+
 class SignUPLogic extends GetxController {
   final nameController = TextEditingController();
   final emailController = TextEditingController();
@@ -20,13 +22,14 @@ class SignUPLogic extends GetxController {
       );
 
       // 2. Firestore mein user ka name aur data store karein
-      await _db.collection('users').doc(userCredential.user!.uid).set({
+      await _db.collection('Prime').doc(userCredential.user!.uid).set({
         'name': nameController.text.trim(),
         'email': emailController.text.trim(),
         'createdAt': DateTime.now(),
       });
 
       Get.snackbar("Success", "Account created successfully!");
+      Get.offAll(() => const DashboardPage());
     } catch (e) {
       Get.snackbar("Error", e.toString());
     }

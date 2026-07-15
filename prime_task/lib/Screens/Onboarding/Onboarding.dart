@@ -66,7 +66,7 @@ class OnboardingScreen extends StatelessWidget {
                         // GetX Navigation
                         onTap: () {
                           // GetX ki madad se navigation
-                          Get.to(() => const SignUPPage());
+                          Get.to(() => const SignUPPage(), transition: Transition.rightToLeftWithFade, duration: const Duration(seconds: 1));
                         },
                         child: Container(
                           height: 70,
