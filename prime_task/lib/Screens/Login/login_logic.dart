@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+import '../dashboard/view.dart';
+
 class LoginLogic extends GetxController {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
@@ -19,6 +21,7 @@ class LoginLogic extends GetxController {
         password: passwordController.text.trim(),
       );
       Get.snackbar("Success", "Welcome Back!");
+      Get.offAll(() => const DashboardPage());
       // Yahan aap apni home screen ka route daal sakte hain
       // Get.offAll(() => const HomeScreen());
     } catch (e) {
