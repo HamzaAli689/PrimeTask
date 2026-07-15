@@ -1,3 +1,4 @@
+import 'package:calendar_view/calendar_view.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -10,7 +11,12 @@ void main() async{
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const PrimeTaskApp());
+  runApp(
+    CalendarControllerProvider(
+      controller: EventController(),
+      child: const PrimeTaskApp(),
+    ),
+  );
 }
 
 class PrimeTaskApp extends StatelessWidget {
