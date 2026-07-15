@@ -1,0 +1,226 @@
+{
+  "project_info": {
+    "project_number": "955995175338",
+    "project_id": "loginapps-6cd94",
+    "storage_bucket": "loginapps-6cd94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955995175338:android:a078f64c5e3fa9e6acd3d3",
+        "android_client_info": {
+          "package_name": "com.DisputeResolverAI.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0R2RWaXwfZJSM6TnDFztQtcmXpbsaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955995175338-as05u83ifav2svjo1p0id51jm4f3cnko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DisputeResolverAI.app.disputeResolverAi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955995175338:android:0e1b50b75506121aacd3d3",
+        "android_client_info": {
+          "package_name": "com.chat.app.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0R2RWaXwfZJSM6TnDFztQtcmXpbsaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955995175338-as05u83ifav2svjo1p0id51jm4f3cnko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DisputeResolverAI.app.disputeResolverAi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955995175338:android:bec7f18774a70880acd3d3",
+        "android_client_info": {
+          "package_name": "com.example.prime_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0R2RWaXwfZJSM6TnDFztQtcmXpbsaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955995175338-as05u83ifav2svjo1p0id51jm4f3cnko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DisputeResolverAI.app.disputeResolverAi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955995175338:android:b1e9934cd94eba6facd3d3",
+        "android_client_info": {
+          "package_name": "com.example.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0R2RWaXwfZJSM6TnDFztQtcmXpbsaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955995175338-as05u83ifav2svjo1p0id51jm4f3cnko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DisputeResolverAI.app.disputeResolverAi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955995175338:android:74cbbd037b98dbdbacd3d3",
+        "android_client_info": {
+          "package_name": "com.finetrack.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0R2RWaXwfZJSM6TnDFztQtcmXpbsaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955995175338-as05u83ifav2svjo1p0id51jm4f3cnko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DisputeResolverAI.app.disputeResolverAi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955995175338:android:89cf9a0070ca8ab0acd3d3",
+        "android_client_info": {
+          "package_name": "com.login.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0R2RWaXwfZJSM6TnDFztQtcmXpbsaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955995175338-22fb3fvnrtuf547j86vbm6orckada5o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955995175338-as05u83ifav2svjo1p0id51jm4f3cnko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DisputeResolverAI.app.disputeResolverAi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
