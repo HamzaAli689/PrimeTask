@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+import '../../widgets/background_decoration.dart';
 import '../Add_Task/AddTask.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -28,7 +29,8 @@ class _DashboardPageState extends State<DashboardPage> {
         child: Column(
           children: [
             // Header Title
-            const Padding(
+
+            Padding(
               padding: EdgeInsets.all(25.0),
               child: Align(alignment: Alignment.centerLeft, child: Text("Schedule", style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold))),
             ),
@@ -83,7 +85,6 @@ class _DashboardPageState extends State<DashboardPage> {
                     initialDay: _currentDate,
                     showHalfHours: false,
                     showVerticalLine: false,
-                    // Ye zaroori hai taake default header hide ho jaye aur koi confusion na ho
                     headerStyle: HeaderStyle(
                       headerTextStyle: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),
                       decoration: BoxDecoration(color: Color(0xFFFFB88C).withOpacity(0.5),)
@@ -105,7 +106,7 @@ class _DashboardPageState extends State<DashboardPage> {
 
   DateTime _combineDateTime(DateTime date, String timeString) {
     try {
-      final format = DateFormat("h:mm a");
+      final format = DateFormat("d MMMM yyyy");
       final time = format.parse(timeString);
       return DateTime(date.year, date.month, date.day, time.hour, time.minute);
     } catch (e) { return date; }
