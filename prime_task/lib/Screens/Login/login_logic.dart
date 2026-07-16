@@ -7,6 +7,7 @@ import '../dashboard/view.dart';
 class LoginLogic extends GetxController {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
+  var isLoading = false.obs;
 
   Future<void> loginUser() async {
     // Basic validation
@@ -14,6 +15,7 @@ class LoginLogic extends GetxController {
       Get.snackbar("Error", "Please fill all fields");
       return;
     }
+    isLoading.value = true;
 
     try {
       await FirebaseAuth.instance.signInWithEmailAndPassword(
@@ -26,6 +28,7 @@ class LoginLogic extends GetxController {
       // Get.offAll(() => const HomeScreen());
     } catch (e) {
       Get.snackbar("Error", e.toString());
+      isLoading.value = false;
     }
   }
 }

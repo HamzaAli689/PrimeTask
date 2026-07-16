@@ -12,7 +12,6 @@ class LoginView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Controller ko register karna
     final LoginLogic logic = Get.put(LoginLogic());
 
     return Scaffold(
@@ -25,23 +24,22 @@ class LoginView extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Gap(150),
+                  const Gap(150),
                   const Text("Sign In", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black)),
                   const Text("Enter your email and password to continue", style: TextStyle(color: Colors.grey, fontSize: 16)),
                   const SizedBox(height: 40),
 
-                  // Email Field
                   CustomTextField(controller: logic.emailController, hint: "Email", icon: Icons.email_outlined),
                   const SizedBox(height: 20),
-
-                  // Password Field
-                  CustomTextField(controller: logic.passwordController, hint: "Password", icon: Icons.lock_outline,obscure: true),
+                  CustomTextField(controller: logic.passwordController, hint: "Password", icon: Icons.lock_outline, obscure: true),
                   const SizedBox(height: 50),
 
-                  // Login Button
-                  CustomButton(text: "Sign In", onPressed: () => logic.loginUser(),),
+                  // Loading Logic with Obx
+                  Obx(() => logic.isLoading.value
+                      ? const Center(child: CircularProgressIndicator(color: Color(0xFFFF6B6B)))
+                      : CustomButton(text: "Sign In", onPressed: () => logic.loginUser())),
+
                   const SizedBox(height: 20),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -49,7 +47,6 @@ class LoginView extends StatelessWidget {
                       const Text("Don't have an account? "),
                       GestureDetector(
                         onTap: () => Get.to(() => const SignUPPage(), transition: Transition.leftToRightWithFade, duration: const Duration(seconds: 1)),
-                             // Login Screen par le jayega
                         child: const Text("Register", style: TextStyle(fontWeight: FontWeight.bold, color: Color(0xFFFF6B6B))),
                       ),
                     ],
