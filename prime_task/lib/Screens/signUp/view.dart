@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
+import 'package:prime_task/Screens/Login/login_view.dart';
 import 'package:prime_task/widgets/background_decoration.dart';
 import 'package:prime_task/widgets/custom_button.dart';
 import '../../widgets/custom_textfield.dart';
@@ -47,7 +48,7 @@ class SignUPPage extends StatelessWidget {
                     children: [
                       const Text("Already have an account? "),
                       GestureDetector(
-                        onTap: () => Get.back(),
+                        onTap: () => Get.to(LoginView()),
                         child: const Text("Login", style: TextStyle(fontWeight: FontWeight.bold, color: Color(0xFFFF6B6B))),
                       ),
                     ],
