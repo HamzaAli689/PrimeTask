@@ -29,3 +29,12 @@ To run this project on your machine, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/PrimeTask.git](https://github.com/YOUR_GITHUB_USERNAME/PrimeTask.git)
+
+## 👨‍💻 Developer
+
+LinkedIn: (https://www.linkedin.com/in/hamza-ali-05858524a/)
+
+GitHub: https://github.com/HamzaAli689
+
+If you find this project useful, don't forget to star the repo! ⭐
+
