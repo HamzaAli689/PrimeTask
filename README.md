@@ -19,8 +19,13 @@ PrimeTask is a robust and efficient Task Management application built with Flutt
 ## 📸 Preview
 <img width="688" height="1535" alt="complete app" src="https://github.com/user-attachments/assets/ab4825c4-c245-42a0-9ad4-81f88304d400" />
 
+<img width="1539" height="672" alt="Gemini_Generated_Image_qji2xpqji2xpqji2" src="https://github.com/user-attachments/assets/eae0be3a-63b4-438c-a215-0329748d6ea8" />
 
-|<img width="1539" height="672" alt="Gemini_Generated_Image_qji2xpqji2xpqji2" src="https://github.com/user-attachments/assets/eae0be3a-63b4-438c-a215-0329748d6ea8" />
+
+
+https://github.com/user-attachments/assets/6c56c09a-6e61-4b73-8a54-41abd7b4cced
+
+
 
 
 ## 🛠 How to Setup & Run
