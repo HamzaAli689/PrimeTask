@@ -1,52 +1,31 @@
-PrimeTask - Task Management App 🚀
-PrimeTask is a clean, efficient, and user-friendly task management application built with Flutter. It helps users organize their daily tasks, set priorities, and stay productive.
+# PrimeTask 📝
 
-📱 Features
-CRUD Operations: Create, Read, Update, and Delete tasks easily.
+PrimeTask is a robust and efficient Task Management application built with Flutter. It is designed to help users streamline their daily productivity by managing tasks with ease, keeping track of priorities, and ensuring nothing important is missed.
 
-Task Prioritization: Categorize tasks based on importance (High, Medium, Low).
+## 🚀 Key Features
+* **Efficient Task Management:** Create, update, and delete tasks seamlessly.
+* **Priority Levels:** Assign importance levels (High, Medium, Low) to stay organized.
+* **Local Persistence:** Data is stored locally using **[Insert your storage, e.g., Hive/SQLite]**, ensuring your data is available offline.
+* **Intuitive UI:** Clean and responsive interface built with Flutter's Material design principles.
+* **Smooth Performance:** Optimized for a lag-free experience.
 
-Local Storage: All your data is saved locally using [Insert your storage, e.g., Hive/SQLite/SharedPreferences].
+## 🛠 Tech Stack
+* **Language:** Dart
+* **Framework:** Flutter
+* **State Management:** [e.g., Provider/Riverpod/Bloc]
+* **Local Database:** [e.g., Hive/SQLite]
+* **Architecture:** [e.g., MVVM / Clean Architecture]
 
-Responsive UI: Designed to look great on all mobile screen sizes.
+## 📸 Preview
+<img width="688" height="1535" alt="complete app" src="https://github.com/user-attachments/assets/ab4825c4-c245-42a0-9ad4-81f88304d400" />
 
-Dark/Light Mode: [If you have it, otherwise remove this line].
 
-🛠 Tech Stack
-Language: Dart
+|<img width="1539" height="672" alt="Gemini_Generated_Image_qji2xpqji2xpqji2" src="https://github.com/user-attachments/assets/eae0be3a-63b4-438c-a215-0329748d6ea8" />
 
-Framework: Flutter
 
-State Management: [e.g., Provider / Riverpod / GetX]
+## 🛠 How to Setup & Run
+To run this project on your machine, follow these steps:
 
-Local Database: [e.g., Hive / SQLite]
-
-UI Components: [e.g., Material Design 3]
-
-📸 Screenshots
-(Yahan apni app ke 2-3 acche screenshots add karein)
- |
-
-🚀 How to Run Locally
-Clone the repository:
-
-Bash
-git clone https://github.com/yourusername/PrimeTask.git
-Navigate to the project folder:
-
-Bash
-cd PrimeTask
-Get dependencies:
-
-Bash
-flutter pub get
-Run the app:
-
-Bash
-flutter run
-👨‍💻 Developed By
-[Aapka Naam]
-
-[LinkedIn Profile Link]
-
-[Portfolio/Website Link]
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/PrimeTask.git](https://github.com/YOUR_GITHUB_USERNAME/PrimeTask.git)
