@@ -1,3 +1,13 @@
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
+![Firebase](https://img.shields.io/badge/Firebase-Enabled-orange?logo=firebase)
+![GetX](https://img.shields.io/badge/GetX-State%20Management-purple)
+![Hive](https://img.shields.io/badge/Hive-Local%20Database-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
+
+
 # 🚀 PrimeTask - Smart Task Management App
 
 PrimeTask is a modern and intuitive **Task Management application** built with **Flutter**. It helps users organize their daily tasks, manage priorities, and stay productive through a clean, responsive, and user-friendly interface.
