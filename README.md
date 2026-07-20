@@ -46,6 +46,14 @@ https://github.com/user-attachments/assets/6c56c09a-6e61-4b73-8a54-41abd7b4cced
 
 ---
 
+## 📥 Download APK
+
+Download the latest Android APK from the GitHub Releases section.
+
+[![Download APK](https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android)](https://github.com/HamzaAli689/PrimeTask/releases/latest)
+
+---
+
 ## 🛠 Tech Stack
 
 | Technology              | Usage                          |
