@@ -1,45 +1,127 @@
-# PrimeTask 📝
+# 🚀 PrimeTask - Smart Task Management App
 
-PrimeTask is a robust and efficient Task Management application built with Flutter. It is designed to help users streamline their daily productivity by managing tasks with ease, keeping track of priorities, and ensuring nothing important is missed.
+PrimeTask is a modern and intuitive **Task Management application** built with **Flutter**. It helps users organize their daily tasks, manage priorities, and stay productive through a clean, responsive, and user-friendly interface.
 
-## 🚀 Key Features
-* **Efficient Task Management:** Create, update, and delete tasks seamlessly.
-* **Priority Levels:** Assign importance levels (High, Medium, Low) to stay organized.
-* **Local Persistence:** Data is stored locally using **[Insert your storage, e.g., Hive/SQLite]**, ensuring your data is available offline.
-* **Intuitive UI:** Clean and responsive interface built with Flutter's Material design principles.
-* **Smooth Performance:** Optimized for a lag-free experience.
+Designed with performance and simplicity in mind, PrimeTask combines **Firebase**, **Hive**, and **GetX** to deliver a fast and reliable task management experience with both online and offline capabilities.
 
-## 🛠 Tech Stack
-* **Language:** Dart
-* **Framework:** Flutter
-* **State Management:** [e.g., Provider/Riverpod/Bloc]
-* **Local Database:** [e.g., Hive/SQLite]
-* **Architecture:** [e.g., MVVM / Clean Architecture]
+---
 
-## 📸 Preview
-<img width="688" height="1535" alt="complete app" src="https://github.com/user-attachments/assets/ab4825c4-c245-42a0-9ad4-81f88304d400" />
+## ✨ Features
 
-<img width="1539" height="672" alt="Gemini_Generated_Image_qji2xpqji2xpqji2" src="https://github.com/user-attachments/assets/eae0be3a-63b4-438c-a215-0329748d6ea8" />
+* 🔐 Secure Authentication with Firebase Authentication
+* ✅ Create, Update, Delete Tasks (CRUD)
+* ⭐ Task Priority (High, Medium, Low)
+* 📅 Task Due Date Management
+* 🔍 Search Tasks
+* 📂 Organize Tasks Efficiently
+* 💾 Offline Storage using Hive
+* ☁️ Cloud Synchronization with Firebase Firestore
+* ⚡ Fast State Management using GetX
+* 🎨 Clean & Responsive UI
+* 🌙 Smooth User Experience
 
+---
 
+## 📱 Screenshots
+
+| Mobile Preview                                                                                           | Desktop Preview                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| <img width="300" src="https://github.com/user-attachments/assets/ab4825c4-c245-42a0-9ad4-81f88304d400"/> | <img src="https://github.com/user-attachments/assets/eae0be3a-63b4-438c-a215-0329748d6ea8"/> |
+
+---
+
+## 🎥 App Demo
 
 https://github.com/user-attachments/assets/6c56c09a-6e61-4b73-8a54-41abd7b4cced
 
+---
 
+## 🛠 Tech Stack
 
+| Technology              | Usage                          |
+| ----------------------- | ------------------------------ |
+| Flutter                 | Cross-platform App Development |
+| Dart                    | Programming Language           |
+| Firebase Authentication | User Authentication            |
+| Cloud Firestore         | Cloud Database                 |
+| Hive                    | Offline Local Storage          |
+| GetX                    | State Management & Navigation  |
+| Material Design         | UI Components                  |
 
-## 🛠 How to Setup & Run
-To run this project on your machine, follow these steps:
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/PrimeTask.git](https://github.com/YOUR_GITHUB_USERNAME/PrimeTask.git)
+## 📂 Project Structure
 
-## 👨‍💻 Developer
+```text
+lib/
+├── models/
+├── services/
+├── controllers/
+├── screens/
+├── widgets/
+├── utils/
+└── main.dart
+```
 
-LinkedIn: (https://www.linkedin.com/in/hamza-ali-05858524a/)
+---
 
-GitHub: https://github.com/HamzaAli689
+## 🚀 Getting Started
 
-If you find this project useful, don't forget to star the repo! ⭐
+### Clone the Repository
 
+```bash
+git clone https://github.com/HamzaAli689/PrimeTask.git
+```
+
+### Navigate to Project
+
+```bash
+cd PrimeTask
+```
+
+### Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the App
+
+```bash
+flutter run
+```
+
+### Build Release APK
+
+```bash
+flutter build apk --release
+```
+
+---
+
+## 📌 Requirements
+
+* Flutter SDK
+* Android Studio / VS Code
+* Firebase Project
+* Android SDK
+
+---
+
+## 🤝 Connect With Me
+
+💼 **LinkedIn**
+
+https://www.linkedin.com/in/hamza-ali-05858524a/
+
+💻 **GitHub**
+
+https://github.com/HamzaAli689
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+Your support motivates me to build more open-source Flutter projects.
